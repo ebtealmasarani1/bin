@@ -1,24 +1,25 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #476197;
     margin: 0;
 }
 
-header{
+header {
     background-color: lightgray;
     border-bottom: 1px solid #374151;
     padding: 20px;
     display: flex;
 }
 
-header h1{
+header h1 {
     margin: 0;
     font-size: 40px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     gap: 30px;
     list-style-type: none;
@@ -26,37 +27,37 @@ nav ul{
     margin: 5px;
 }
 
-nav a{
+nav a {
     display: block;
     color: #d1d5db;
     text-decoration: none;
     padding: 5px;
 }
 
-nav a:hover{
+nav a:hover {
     background: #374151;
     color: #60a5fa;
 }
 
-main{
+main {
     padding: 20px;
 }
 
-article{
+article {
     background-color: white;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
 }
 
-form{
+form {
     padding: 10px;
     margin: 10px;
     background-color: #8da5c6;
     border-radius: 10px;
 }
 
-label{
+label {
     display: block;
     margin: 5px;
 }
@@ -81,7 +82,7 @@ input[type="submit"] {
     font-size: 16px;
 }
 
-footer{
+footer {
     background-color: lightgray;
     padding: 20px;
 }
